@@ -1,4 +1,3 @@
-
 package com.android.fm.radio;
 
 import com.android.fm.R;
@@ -57,7 +56,7 @@ public class FMRadioService extends Service {
     /**
      * Points to the device node for the FM radio
      */
-    private static final String FMRADIO_DEVICE_FD_STRING = "/dev/radio0";
+    private static final String FMRADIO_DEVICE_FD_STRING = "/dev/fmradio";
 
     /**
      * ID identifying this service when launched in the foreground
